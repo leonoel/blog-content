@@ -1,0 +1,25 @@
+[body {margin "0 auto"
+       max-width "50em"
+       font-family "\"Helvetica\", \"Arial\", sans-serif"
+       line-height "1.5"
+       padding "1em"
+       color "#3a4b56"}]
+[h1 h2 h3 h4 h5 strong {color "#333"}]
+[h1 h2 h3 h4 h5 {margin-top "2em"
+                 margin-bottom "1em"}]
+[a {color "#69c"}]
+[code pre {background "#e5edef"}]
+[code {padding "2px 4px"}]
+[pre {background "#e5edef"
+      padding "1em"
+      border-left "2px solid #69c"}]
+[pre [code {padding "0px"}
+           [.symbol {}]
+           [.background {}]
+           [.comment {color "#586e75"}]
+           [.definition .macro {color "#cb4b16"}]
+           [.core-fn .variable {color "#268bd2"}]
+           [.number .string .character .boolean .nil {color "#2aa198"}]
+           [.special-form .s-exp .reader-char .regex {color "#dc322f"}]
+           [.repeat .conditional .exception .keyword {color "#859900"}]
+           ]]
